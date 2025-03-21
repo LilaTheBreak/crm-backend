@@ -1,0 +1,70 @@
+.deals-container {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filters input,
+  .filters button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .new-deal-btn {
+    background-color: #ff6f61;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .deals-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .deal-management,
+  .deal-overview,
+  .invoicing {
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .deal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #444;
+  }
+  
+  .status.green {
+    color: #4caf50;
+  }
+  
+  .status.red {
+    color: #ff4d4d;
+  }
+  
+  .invoicing button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

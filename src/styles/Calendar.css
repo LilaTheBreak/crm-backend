@@ -1,0 +1,136 @@
+/* ✅ General Calendar Styling */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #121212;
+    color: white;
+    width: calc(100% - 250px); /* Adjust for sidebar width */
+    margin-left: 250px; /* Push content to the right to avoid overlap */
+}
+
+/* ✅ Header and Controls */
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.calendar-controls {
+    display: flex;
+    gap: 10px;
+}
+
+/* ✅ Calendar Grid */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.calendar-day {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.calendar-day:hover {
+    background: #333;
+}
+
+.calendar-day .day-number {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+}
+
+/* ✅ Events */
+.event {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Event Colors */
+.event-purple { background-color: #b48dfc; }
+.event-blue { background-color: #4a90e2; }
+.event-green { background-color: #50e3c2; }
+.event-orange { background-color: #f5a623; }
+.event-pink { background-color: #ff9ff3; }
+
+/* ✅ Event Editing */
+.event-edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    z-index: 1000;
+}
+
+.event-edit-modal input,
+.event-edit-modal select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #333;
+    border: 1px solid #666;
+    border-radius: 5px;
+    color: white;
+}
+
+/* ✅ Google Sync Button */
+.google-sync-btn {
+    background: #6B5B95;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.google-sync-btn:hover {
+    background: #7c69a3;
+}
+
+/* ✅ Calendar Coding */
+.calendar-coding {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.calendar-coding .coding-label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.coding-purple { background: #b48dfc; }
+.coding-blue { background: #4a90e2; }
+.coding-green { background: #50e3c2; }
+.coding-orange { background: #f5a623; }
+.coding-pink { background: #ff9ff3; }
+
+

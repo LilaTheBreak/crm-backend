@@ -1,0 +1,38 @@
+/* DealDashboard.css */
+.deal-dashboard {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .deal-filters {
+    margin-bottom: 20px;
+  }
+  
+  .deals-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .deal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .deal .status.active {
+    color: green;
+  }
+  
+  .deal .status.inactive {
+    color: red;
+  }
+  
+  .deal .status.pending {
+    color: orange;
+  }
+  
+  

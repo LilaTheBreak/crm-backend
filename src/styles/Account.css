@@ -1,0 +1,198 @@
+/* ✅ General Accounts Page Styling */
+.accounts-container {
+    padding: 20px;
+    background: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+}
+
+/* ✅ Header Section */
+.accounts-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.accounts-header h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ✅ Search and Filter */
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #292929;
+    color: white;
+    width: 250px;
+}
+
+.filter-button {
+    background: #6B5B95;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* ✅ Accounts Grid Layout */
+.accounts-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+/* ✅ Account Profile Card */
+.account-profile {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.account-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* ✅ Account Details */
+.account-details {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.account-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f7cac9;
+}
+
+.account-details p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* ✅ Deal Management Section */
+.deal-management {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.deal-management h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.deal-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background: #292929;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.deal-item.active {
+    border-left: 5px solid #00FF00;
+}
+
+.deal-item.inactive {
+    border-left: 5px solid #FF6F61;
+}
+
+/* ✅ Related Contacts Section */
+.related-contacts {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* ✅ Performance Stats */
+.platform-stats {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ✅ Chart & Analytics */
+.charts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* ✅ Ads and Campaigns */
+.ads-container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ads-images {
+    display: flex;
+    gap: 10px;
+}
+
+.ads-images img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* ✅ Current Campaigns */
+.campaigns-container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.campaigns-container textarea {
+    width: 100%;
+    height: 60px;
+    background: #292929;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 1024px) {
+    .accounts-grid {
+        grid-template-columns: 1fr;
+    }
+}

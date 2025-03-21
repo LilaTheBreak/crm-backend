@@ -1,0 +1,17 @@
+/* ✅ General Accounts Page Styling */
+.accounts-container {
+    padding: 20px;
+    background: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ✅ Account Details Page */
+.account-details-container {
+    padding: 20px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 10px;
+}

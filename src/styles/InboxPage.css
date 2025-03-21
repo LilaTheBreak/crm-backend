@@ -1,0 +1,166 @@
+/* ✅ General Inbox Styling */
+.inbox-container {
+    padding: 20px;
+    background: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ✅ Header */
+.inbox-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.inbox-header h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ✅ Controls */
+.inbox-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #292929;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+.search-icon {
+    color: #6B5B95;
+}
+
+/* ✅ Talent Selection */
+.talent-selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ✅ Talent Profile */
+.talent-profile {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.talent-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.talent-profile h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* ✅ Tasks */
+.talent-tasks {
+    margin-top: 15px;
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.talent-tasks h3 {
+    margin-bottom: 10px;
+}
+
+.talent-tasks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.talent-tasks li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* ✅ Status Indicators */
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.active {
+    background: #00FF00;
+}
+
+.pending {
+    background: #FF6F61;
+}
+
+/* ✅ Email Notifications */
+.email-notifications {
+    margin-top: 15px;
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.email-notifications ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ✅ Messages Section */
+.inbox-messages {
+    display: flex;
+    gap: 20px;
+}
+
+.inbox-column, .priority-inbox {
+    flex: 1;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.message-card {
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.unread {
+    border-left: 5px solid #6B5B95;
+}
+
+.priority {
+    border-left: 5px solid #FF6F61;
+}
+
+.timestamp {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+  

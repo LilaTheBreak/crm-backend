@@ -1,0 +1,286 @@
+/* ✅ General Talent Dashboard Styling */
+.talent-container {
+    padding: 20px;
+    background: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: calc(100% - 250px); /* Ensure spacing for sidebar */
+    margin-left: 250px; /* Align with sidebar */
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ✅ Header Section */
+.talent-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.talent-header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.talent-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6B5B95;
+}
+
+.upload-btn {
+    background: #6B5B95;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 12px;
+}
+
+/* ✅ Filters Section */
+.filters-container {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 12px 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.filters-left {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.filters-right {
+    display: flex;
+    gap: 12px;
+}
+
+/* ✅ Main Content Grid */
+.talent-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+/* ✅ Widgets */
+.widget {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Tasks */
+.tasks, .active-deals {
+    padding: 15px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background: #292929;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.task-item:hover {
+    background: #3b3b3b;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.task-status.completed {
+    background: #6B5B95;
+}
+
+.task-status.pending {
+    background: #FF6F61;
+}
+
+.add-task {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.add-task input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #292929;
+    color: white;
+}
+
+.add-task button {
+    background: #6B5B95;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ✅ Calendar Section */
+.calendar-container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-events {
+    margin-top: 10px;
+}
+
+/* ✅ Event Suggestions & Conflicts */
+.event-suggestions, .event-conflicts {
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.event-suggestions p, .event-conflicts p {
+    color: #F7CAC9;
+}
+
+/* ✅ New Deal Opportunities */
+.deal-opportunities {
+    padding: 15px;
+}
+
+.deal-card {
+    display: flex;
+    align-items: center;
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.deal-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.deal-card-info {
+    flex: 1;
+}
+
+.deal-card-status {
+    color: #6B5B95;
+    font-weight: bold;
+}
+
+/* ✅ Charts */
+.charts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.chart {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* ✅ Performance & Communication */
+.performance, .communication {
+    padding: 15px;
+}
+
+.communication p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.whatsapp-icon {
+    color: #25D366;
+}
+
+/* ✅ Talent Preferences */
+.preferences-container {
+    padding: 15px;
+}
+
+.preferences-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #292929;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.preferences-item label {
+    font-weight: bold;
+}
+
+.preferences-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-switch {
+    width: 35px;
+    height: 20px;
+    background: #6B5B95;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-switch::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    top: 2.5px;
+    left: 3px;
+    transition: 0.3s;
+}
+
+.toggle-switch.active::after {
+    left: 17px;
+}
+
+

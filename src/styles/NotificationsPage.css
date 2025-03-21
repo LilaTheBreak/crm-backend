@@ -1,0 +1,77 @@
+.notifications-container {
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.category-tabs button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-tabs .active {
+    background: #007bff;
+}
+
+.widget {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.to-do-list .task-item {
+    cursor: pointer;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.latest-activity .activity-card {
+    background: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.latest-activity .activity-time {
+    font-size: 12px;
+    color: gray;
+}
+
+.upcoming-events .events-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-day {
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}

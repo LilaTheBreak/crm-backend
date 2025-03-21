@@ -1,0 +1,35 @@
+.dashboard-container {
+    padding: 20px;
+    color: white;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filter-section select, .filter-section input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .chart-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

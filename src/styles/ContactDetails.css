@@ -1,0 +1,95 @@
+/* ✅ General Contact Details Page Styling */
+.contact-details-container {
+    padding: 20px;
+    background: #121212;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+/* ✅ Contact Header */
+.contact-details-container h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #F7CAC9;
+}
+
+/* ✅ Contact Information */
+.contact-details-container p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-details-container strong {
+    color: #6B5B95;
+}
+
+/* ✅ Deals Section */
+.contact-details-container h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FF6F61;
+}
+
+.contact-details-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details-container li {
+    background: #292929;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* ✅ Active vs Completed Deals */
+.active-deal {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+.completed-deal {
+    color: #FF6F61;
+    font-weight: bold;
+}
+
+/* ✅ Activity Log */
+.activity-log {
+    margin-top: 15px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.activity-entry {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.activity-date {
+    font-size: 12px;
+    color: #999;
+}
+
+/* ✅ Buttons */
+.contact-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.contact-button {
+    background: #6B5B95;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.contact-button:hover {
+    background: #7c69a3;
+}

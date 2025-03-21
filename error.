@@ -1,0 +1,1324 @@
+Script started on Mon Mar 17 13:38:04 2025
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm install chart.js react-chartjs-2[27m
+[7mnpm install moment[27m[K
+[K[A[A[42C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mc[27mh[27ma[27mr[27mt[27m.[27mj[27ms[27m [27mr[27me[27ma[27mc[27mt[27m-[27mc[27mh[27ma[27mr[27mt[27mj[27ms[27m-[27m2[1B[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mm[27mo[27mm[27me[27mn[27mt[1B[K[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K
+up to date, audited 1407 packages in 4s
+[1G[0K⠧[1G[0K
+[1G[0K⠧[1G[0K269 packages are looking for funding
+[1G[0K⠧[1G[0K  run `npm fund` for details
+[1G[0K⠧[1G[0K
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1G[0K⠧[1G[0K[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K
+up to date, audited 1407 packages in 3s
+[1G[0K⠋[1G[0K
+[1G[0K⠋[1G[0K269 packages are looking for funding
+[1G[0K⠋[1G[0K  run `npm fund` for details
+[1G[0K⠋[1G[0K
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1G[0K⠋[1G[0K[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm start[27m[9D[27mn[27mp[27mm[27m [27ms[27mt[27ma[27mr[27mt[?2004l
+
+> crm-frontend@0.1.0 prestart
+> export NODE_OPTIONS=--openssl-legacy-provider
+
+[1G[0K[1G[0K⠙[1G[0K
+> crm-frontend@0.1.0 start
+> react-scripts start
+
+[1G[0K⠙[1G[0K(node:85299) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:85299) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mcrm-frontend[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.166:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m6:0-103[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m6:0-103[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m6:0-103[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-icons/fa' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+^C
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm install react-icons[27m
+[K[A[42C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mr[27me[27ma[27mc[27mt[27m-[27mi[27mc[27mo[27mn[27ms[1B[K[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K
+added 1 package, and audited 1408 packages in 9s
+[1G[0K⠴[1G[0K
+[1G[0K⠴[1G[0K269 packages are looking for funding
+[1G[0K⠴[1G[0K  run `npm fund` for details
+[1G[0K⠴[1G[0K
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1G[0K⠴[1G[0K[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm start[27m
+[K[A[42C[27mn[27mp[27mm[27m [27ms[27mt[27ma[27mr[27mt[1B[K[?2004l
+
+> crm-frontend@0.1.0 prestart
+> export NODE_OPTIONS=--openssl-legacy-provider
+
+[1G[0K[1G[0K⠙[1G[0K
+> crm-frontend@0.1.0 start
+> react-scripts start
+
+[1G[0K⠙[1G[0K(node:87244) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:87244) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+^C
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm install gapi-script[27m
+[K[A[42C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27ma[27mp[27mi[27m-[27ms[27mc[27mr[27mi[27mp[27mt[1B[K[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K
+up to date, audited 1408 packages in 4s
+[1G[0K⠏[1G[0K
+[1G[0K⠏[1G[0K269 packages are looking for funding
+[1G[0K⠏[1G[0K  run `npm fund` for details
+[1G[0K⠏[1G[0K
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1G[0K⠏[1G[0K[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm start[27m
+[K[A[42C[27mn[27mp[27mm[27m [27ms[27mt[27ma[27mr[27mt[1B[K[?2004l
+
+> crm-frontend@0.1.0 prestart
+> export NODE_OPTIONS=--openssl-legacy-provider
+
+[1G[0K[1G[0K⠙[1G[0K
+> crm-frontend@0.1.0 start
+> react-scripts start
+
+[1G[0K⠙[1G[0K(node:91180) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:91180) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mcrm-frontend[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.166:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mcrm-frontend[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.166:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mcrm-frontend[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.1.166:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36mnpm run build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/Calendar.js
+  [1mLine 23:11:[22m  'createEvent' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/Calendar.js
+  [1mLine 23:11:[22m  'createEvent' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /Users/admin/Desktop/crm-frontend/src/pages/Calendar.js: Unexpected token, expected "," (81:28)
+[0m [90m 79 |[39m                         [33m<[39m[33m/[39m[33mli[39m[33m>[39m
+ [90m 80 |[39m                     ))
+[31m[1m>[22m[39m[90m 81 |[39m                     [33m<[39m[33mbutton[39m onClick[33m=[39m{createEvent} className[33m=[39m[32m"create-event-btn"[39m[33m>[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 82 |[39m     ➕ [33mAdd[39m [33mEvent[39m to [33mGoogle[39m [33mCalendar[39m
+ [90m 83 |[39m [33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m 84 |[39m[0m
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/admin/Desktop/crm-frontend/src/pages/Calendar.js: Unexpected token, expected "," (81:28)
+
+[0m [90m 79 |[39m                         [33m<[39m[33m/[39m[33mli[39m[33m>[39m
+ [90m 80 |[39m                     ))
+[31m[1m>[22m[39m[90m 81 |[39m                     [33m<[39m[33mbutton[39m onClick[33m=[39m{createEvent} className[33m=[39m[32m"create-event-btn"[39m[33m>[39m
+ [90m    |[39m                             [31m[1m^[22m[39m
+ [90m 82 |[39m     ➕ [33mAdd[39m [33mEvent[39m to [33mGoogle[39m [33mCalendar[39m
+ [90m 83 |[39m [33m<[39m[33m/[39m[33mbutton[39m[33m>[39m
+ [90m 84 |[39m[0m
+    at constructor (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowParserMixin.unexpected (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:3347:16)
+    at FlowParserMixin.expect (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:3657:12)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:11346:14)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5814:18)
+    at FlowParserMixin.parseExprAtom (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:11007:23)
+    at FlowParserMixin.parseExprAtom (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6936:20)
+    at FlowParserMixin.parseExprSubscripts (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10759:23)
+    at FlowParserMixin.parseUpdate (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10744:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10724:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10577:61)
+    at FlowParserMixin.parseExprOps (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10582:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10559:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10522:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5772:18)
+    at /Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10493:39
+    at FlowParserMixin.allowInAnd (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12101:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10493:17)
+    at FlowParserMixin.tryParseConditionalConsequent (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5244:29)
+    at FlowParserMixin.parseConditional (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5205:14)
+    at FlowParserMixin.parseMaybeConditional (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10563:17)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10522:21)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5772:18)
+    at FlowParserMixin.parseExpressionBase (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10477:23)
+    at /Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10473:39
+    at FlowParserMixin.allowInAnd (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12101:12)
+    at FlowParserMixin.parseExpression (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10473:17)
+    at FlowParserMixin.jsxParseExpressionContainer (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6804:31)
+    at FlowParserMixin.jsxParseElementAt (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6883:36)
+    at FlowParserMixin.jsxParseElementAt (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6870:32)
+    at FlowParserMixin.jsxParseElement (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6921:17)
+    at FlowParserMixin.parseExprAtom (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6931:19)
+    at FlowParserMixin.parseExprSubscripts (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10759:23)
+    at FlowParserMixin.parseUpdate (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10744:21)
+    at FlowParserMixin.parseMaybeUnary (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10724:23)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10577:61)
+    at FlowParserMixin.parseExprOps (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10582:23)
+    at FlowParserMixin.parseMaybeConditional (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10559:23)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10522:21)
+    at /Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5721:39
+    at FlowParserMixin.tryParse (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:3665:20)
+    at FlowParserMixin.parseMaybeAssign (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5721:18)
+    at /Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10493:39
+    at FlowParserMixin.allowInAnd (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12101:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:10493:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:11360:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5814:18)
+    at FlowParserMixin.parseExprAtom (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:11007:23)
+    at FlowParserMixin.parseExprAtom (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:6936:20)
+
+[1m[31mERROR[39m[22m in [eslint] 
+src/pages/Calendar.js
+  [1mLine 81:28:[22m  Parsing error: Unexpected token, expected "," (81:28)
+
+webpack compiled with [1m[31m2 errors[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve '@fullcalendar/react' in '/Users/admin/Desktop/crm-frontend/src/pages'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m [1m[32m7:0-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@fullcalendar/react' in '/Users/admin/Desktop/crm-frontend/src/pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m [1m[32m8:0-50[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@fullcalendar/daygrid' in '/Users/admin/Desktop/crm-frontend/src/pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m [1m[32m9:0-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@fullcalendar/interaction' in '/Users/admin/Desktop/crm-frontend/src/pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m [1m[32m10:0-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@fullcalendar/timegrid' in '/Users/admin/Desktop/crm-frontend/src/pages'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/pages/Calendar.js[39m[22m [1m[32m11:0-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@fullcalendar/list' in '/Users/admin/Desktop/crm-frontend/src/pages'[39m[22m
+
+webpack compiled with [1m[31m5 errors[39m[22m and [1m[33m1 warning[39m[22m
+^C
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mnpm install @fullcalendar/react @fullc[7ma[7mlendar/daygrid @fullcalendar/interaction @fullcalendar/timegrid @fullcalendar/l[7mi[7mst gapi-script[27m[K
+[K[3A[42C[27mn[27mp[27mm[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27m@[27mf[27mu[27ml[27ml[27mc[27ma[27ml[27me[27mn[27md[27ma[27mr[27m/[27mr[27me[27ma[27mc[27mt[27m [27m@[27mf[27mu[27ml[27ml[27mca[27ml[27me[27mn[27md[27ma[27mr[27m/[27md[27ma[27my[27mg[27mr[27mi[27md[27m [27m@[27mf[27mu[27ml[27ml[27mc[27ma[27ml[27me[27mn[27md[27ma[27mr[27m/[27mi[27mn[27mt[27me[27mr[27ma[27mc[27mt[27mi[27mo[27mn[27m [27m@[27mf[27mu[27ml[27ml[27mc[27ma[27ml[27me[27mn[27md[27ma[27mr[27m/[27mt[27mi[27mm[27me[27mg[27mr[27mi[27md[27m [27m@[27mf[27mu[27ml[27ml[27mc[27ma[27ml[27me[27mn[27md[27ma[27mr[27m/[27mli[27ms[27mt[27m [27mg[27ma[27mp[27mi[27m-[27ms[27mc[27mr[27mi[27mp[27mt[1B[K[?2004l
+[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K⠋[1G[0K⠙[1G[0K⠹[1G[0K⠸[1G[0K⠼[1G[0K⠴[1G[0K⠦[1G[0K⠧[1G[0K⠇[1G[0K⠏[1G[0K
+added 7 packages, and audited 1415 packages in 6s
+[1G[0K⠏[1G[0K
+[1G[0K⠏[1G[0K270 packages are looking for funding
+[1G[0K⠏[1G[0K  run `npm fund` for details
+[1G[0K⠏[1G[0K
+[31m[1m8[22m[39m vulnerabilities (2 [33m[1mmoderate[22m[39m, 6 [31m[1mhigh[22m[39m)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[1G[0K⠏[1G[0K[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004hnnpms  start[?2004l
+
+> crm-frontend@0.1.0 prestart
+> export NODE_OPTIONS=--openssl-legacy-provider
+
+[1G[0K[1G[0K⠙[1G[0K
+> crm-frontend@0.1.0 start
+> react-scripts start
+
+[1G[0K⠙[1G[0K(node:96218) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:96218) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m8:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m8:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Module not found: Error: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m [1m[32m8:0-48[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '../assets/LogoWhite.png' in '/Users/admin/Desktop/crm-frontend/src/components'[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /Users/admin/Desktop/crm-frontend/src/components/Sidebar.js: Identifier 'whiteLogo' has already been declared. (11:6)
+[0m [90m  9 |[39m [36mimport[39m whiteLogo [36mfrom[39m [32m"../assets/LogoWhite.png"[39m[33m;[39m [90m// ✅ Ensure the path matches your folder structure[39m
+ [90m 10 |[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mconst[39m whiteLogo [33m=[39m require([32m"../assets/LogoWhite.png"[39m)[33m;[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m
+ [90m 14 |[39m [36mconst[39m [33mSidebar[39m [33m=[39m () [33m=>[39m {[0m
+    at parser.next (<anonymous>)
+    at normalizeFile.next (<anonymous>)
+    at run.next (<anonymous>)
+    at transform.next (<anonymous>)
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Sidebar.js[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/admin/Desktop/crm-frontend/src/components/Sidebar.js: Identifier 'whiteLogo' has already been declared. (11:6)
+
+[0m [90m  9 |[39m [36mimport[39m whiteLogo [36mfrom[39m [32m"../assets/LogoWhite.png"[39m[33m;[39m [90m// ✅ Ensure the path matches your folder structure[39m
+ [90m 10 |[39m
+[31m[1m>[22m[39m[90m 11 |[39m [36mconst[39m whiteLogo [33m=[39m require([32m"../assets/LogoWhite.png"[39m)[33m;[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 12 |[39m
+ [90m 13 |[39m
+ [90m 14 |[39m [36mconst[39m [33mSidebar[39m [33m=[39m () [33m=>[39m {[0m
+    at constructor (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:1555:19)
+    at FlowScopeHandler.declareName (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:1521:12)
+    at FlowScopeHandler.declareName (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:1622:11)
+    at FlowParserMixin.declareNameFromIdentifier (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:7480:16)
+    at FlowParserMixin.checkIdentifier (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:7476:12)
+    at FlowParserMixin.checkLVal (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:7417:12)
+    at FlowParserMixin.parseVarId (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:13047:10)
+    at FlowParserMixin.parseVarId (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5697:11)
+    at FlowParserMixin.parseVar (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:13022:12)
+    at FlowParserMixin.parseVarStatement (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12869:10)
+    at FlowParserMixin.parseStatementContent (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12490:23)
+    at FlowParserMixin.parseStatementLike (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12407:17)
+    at FlowParserMixin.parseStatementLike (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5139:24)
+    at FlowParserMixin.parseModuleItem (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12384:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12955:36)
+    at FlowParserMixin.parseBlockBody (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12948:10)
+    at FlowParserMixin.parseProgram (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12281:10)
+    at FlowParserMixin.parseTopLevel (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:12271:25)
+    at FlowParserMixin.parseTopLevel (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:5908:28)
+    at FlowParserMixin.parse (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:14123:10)
+    at parse (/Users/admin/Desktop/crm-frontend/node_modules/@babel/parser/lib/index.js:14157:38)
+    at parser (/Users/admin/Desktop/crm-frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/admin/Desktop/crm-frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/admin/Desktop/crm-frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/Users/admin/Desktop/crm-frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/Users/admin/Desktop/crm-frontend/node_modules/gensync/index.js:261:32)
+    at /Users/admin/Desktop/crm-frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/Users/admin/Desktop/crm-frontend/node_modules/gensync/index.js:223:11)
+
+[1m[31mERROR[39m[22m in [eslint] 
+src/components/Sidebar.js
+  [1mLine 11:6:[22m  Parsing error: Identifier 'whiteLogo' has already been declared. (11:6)
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 1:17:[22m   'useEffect' is defined but never used          [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 8:12:[22m  'users' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 18:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 1:17:[22m   'useEffect' is defined but never used          [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 1:17:[22m   'useEffect' is defined but never used          [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 1:17:[22m   'useEffect' is defined but never used          [33m[4mno-unused-vars[24m[39m
+  [1mLine 3:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 15:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+[eslint] 
+src/pages/Account.js
+  [1mLine 16:29:[22m  'setRelatedContacts' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:19:[22m  'setDeals' is assigned a value but never used            [33m[4mno-unused-vars[24m[39m
+
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in [eslint] 
+src/pages/Account.js
+  [1mLine 16:29:[22m  'setRelatedContacts' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+  [1mLine 21:19:[22m  'setDeals' is assigned a value but never used            [33m[4mno-unused-vars[24m[39m
+
+src/pages/AdminDashboard.js
+  [1mLine 22:8:[22m  React Hook useEffect has a missing dependency: 'fetchUsers'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Calendar.js
+  [1mLine 35:8:[22m  React Hook useEffect has missing dependencies: 'API_KEY' and 'CLIENT_ID'. Either include them or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Dashboard.js
+  [1mLine 4:10:[22m   'FaTasks' is defined but never used            [33m[4mno-unused-vars[24m[39m
+  [1mLine 16:19:[22m  'setDeals' is assigned a value but never used  [33m[4mno-unused-vars[24m[39m
+
+src/pages/Home.js
+  [1mLine 2:25:[22m   'Line' is defined but never used                                                                               [33m[4mno-unused-vars[24m[39m
+  [1mLine 4:8:[22m    'moment' is defined but never used                                                                             [33m[4mno-unused-vars[24m[39m
+  [1mLine 11:10:[22m  'deals' is assigned a value but never used                                                                     [33m[4mno-unused-vars[24m[39m
+  [1mLine 20:6:[22m   React Hook useEffect has a missing dependency: 'fetchDeals'. Either include it or remove the dependency array  [33m[4mreact-hooks/exhaustive-deps[24m[39m
+
+src/pages/Talent.js
+  [1mLine 1:27:[22m  'useEffect' is defined but never used  [33m[4mno-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+^C
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpip install requests beautifulsoup4 go[7mo[7mglesearch-python wikipedia-api psycopg2[27m[K
+[K[A[A[42C[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mr[27me[27mq[27mu[27me[27ms[27mt[27ms[27m [27mb[27me[27ma[27mu[27mt[27mi[27mf[27mu[27ml[27ms[27mo[27mu[27mp[27m4[27m [27mg[27moo[27mg[27ml[27me[27ms[27me[27ma[27mr[27mc[27mh[27m-[27mp[27my[27mt[27mh[27mo[27mn[27m [27mw[27mi[27mk[27mi[27mp[27me[27md[27mi[27ma[27m-[27ma[27mp[27mi[27m [27mp[27ms[27my[27mc[27mo[27mp[27mg[27m2[1B[K[?2004l
+zsh: command not found: pip
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpython3 --version[27m
+[K[A[42C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[?2004l
+Python 3.9.6
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mcurl https://bootstrap.pypa.io/get-pip[7m.[7mpy -o get-pip.py[27m[K
+[7mpython3 get-pip.py[27m[K
+[K[3A[42C[27mc[27mu[27mr[27ml[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mb[27mo[27mo[27mt[27ms[27mt[27mr[27ma[27mp[27m.[27mp[27my[27mp[27ma[27m.[27mi[27mo[27m/[27mg[27me[27mt[27m-[27mp[27mi[27mp.[27mp[27my[27m [27m-[27mo[27m [27mg[27me[27mt[27m-[27mp[27mi[27mp[27m.[27mp[27my[1B[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27mg[27me[27mt[27m-[27mp[27mi[27mp[27m.[27mp[27my[1B[K[?2004l
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2246k  100 2246k    0     0  8114k      0 --:--:-- --:--:-- --:--:-- 8412k
+Defaulting to user installation because normal site-packages is not writeable
+Collecting pip
+  Downloading pip-25.0.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-25.0.1-py3-none-any.whl (1.8 MB)
+[?25l   [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.8 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [38;5;70m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.8/1.8 MB[0m [31m16.7 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: pip
+[33m  WARNING: The scripts pip, pip3 and pip3.9 are installed in '/Users/admin/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m[33m
+[0mSuccessfully installed pip-25.0.1
+
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m A new release of pip is available: [0m[31;49m21.2.4[0m[39;49m -> [0m[32;49m25.0.1[0m
+[1m[[0m[34;49mnotice[0m[1;39;49m][0m[39;49m To update, run: [0m[32;49m/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip[0m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpip --version[27m
+[K[A[42C[27mp[27mi[27mp[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[?2004l
+zsh: command not found: pip
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpython3 -m site --user-base[27m
+[K[A[42C[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27m-[27mm[27m [27ms[27mi[27mt[27me[27m [27m-[27m-[27mu[27ms[27me[27mr[27m-[27mb[27ma[27ms[27me[1B[K[?2004l
+/Users/admin/Library/Python/3.9
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mexport PATH="$HOME/Library/Python/3.9/[7mb[7min:$PATH"[27m[K
+[K[A[A[42C[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m"[27m$[27mH[27mO[27mM[27mE[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mP[27my[27mt[27mh[27mo[27mn[27m/[27m3[27m.[27m9[27m/b[27mi[27mn[27m:[27m$[27mP[27mA[27mT[27mH[27m"[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpip --version[27m
+[K[A[42C[27mp[27mi[27mp[27m [27m-[27m-[27mv[27me[27mr[27ms[27mi[27mo[27mn[1B[K[?2004l
+pip 25.0.1 from /Users/admin/Library/Python/3.9/lib/python/site-packages/pip (python 3.9)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mecho 'export PATH="$HOME/Library/Pytho[7mn[7m/3.9/bin:$PATH"' >> ~/.zshrc[27m[K
+[7msource ~/.zshrc[27m[K
+[K[3A[42C[27me[27mc[27mh[27mo[27m [27m'[27me[27mx[27mp[27mo[27mr[27mt[27m [27mP[27mA[27mT[27mH[27m=[27m"[27m$[27mH[27mO[27mM[27mE[27m/[27mL[27mi[27mb[27mr[27ma[27mr[27my[27m/[27mP[27my[27mt[27mh[27mon[27m/[27m3[27m.[27m9[27m/[27mb[27mi[27mn[27m:[27m$[27mP[27mA[27mT[27mH[27m"[27m'[27m [27m>[27m>[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[27ms[27mo[27mu[27mr[27mc[27me[27m [27m~[27m/[27m.[27mz[27ms[27mh[27mr[27mc[1B[K[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h[7mpip install requests beautifulsoup4 go[7mo[7mglesearch-python wikipedia-api psycopg2[27m[K
+[K[A[A[42C[27mp[27mi[27mp[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mr[27me[27mq[27mu[27me[27ms[27mt[27ms[27m [27mb[27me[27ma[27mu[27mt[27mi[27mf[27mu[27ml[27ms[27mo[27mu[27mp[27m4[27m [27mg[27moo[27mg[27ml[27me[27ms[27me[27ma[27mr[27mc[27mh[27m-[27mp[27my[27mt[27mh[27mo[27mn[27m [27mw[27mi[27mk[27mi[27mp[27me[27md[27mi[27ma[27m-[27ma[27mp[27mi[27m [27mp[27ms[27my[27mc[27mo[27mp[27mg[27m2[1B[K[?2004l
+Defaulting to user installation because normal site-packages is not writeable
+Collecting requests
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.13.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting googlesearch-python
+  Downloading googlesearch_python-1.3.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting wikipedia-api
+  Downloading wikipedia_api-0.8.1.tar.gz (19 kB)
+  Preparing metadata (setup.py) ... [?25l- done
+[?25hCollecting psycopg2
+  Downloading psycopg2-2.9.10.tar.gz (385 kB)
+  Preparing metadata (setup.py) ... [?25l- \ done
+[?25hCollecting charset-normalizer<4,>=2 (from requests)
+  Downloading charset_normalizer-3.4.1-cp39-cp39-macosx_10_9_universal2.whl.metadata (35 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Downloading urllib3-2.3.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+Collecting soupsieve>1.2 (from beautifulsoup4)
+  Downloading soupsieve-2.6-py3-none-any.whl.metadata (4.6 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4)
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading beautifulsoup4-4.13.3-py3-none-any.whl (186 kB)
+Downloading googlesearch_python-1.3.0-py3-none-any.whl (5.6 kB)
+Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+Downloading charset_normalizer-3.4.1-cp39-cp39-macosx_10_9_universal2.whl (197 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading soupsieve-2.6-py3-none-any.whl (36 kB)
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+Building wheels for collected packages: wikipedia-api, psycopg2
+  Building wheel for wikipedia-api (setup.py) ... [?25l- \ done
+[?25h  Created wheel for wikipedia-api: filename=Wikipedia_API-0.8.1-py3-none-any.whl size=15385 sha256=8a6aff7754104998e0156c0914b58eb1e60dc0d53558f32591b0f7d6801ec5d1
+  Stored in directory: /Users/admin/Library/Caches/pip/wheels/3d/70/27/d8096daf5fb5b06a116583a7cc05da1225eb845ab44cc59f56
+  Building wheel for psycopg2 (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+[?25h  Created wheel for psycopg2: filename=psycopg2-2.9.10-cp39-cp39-macosx_10_9_universal2.whl size=245697 sha256=cdf09b1ec9232eafd480f755596a3b9b0a11320f950fe24a395238415b7158f7
+  Stored in directory: /Users/admin/Library/Caches/pip/wheels/a3/f0/13/36dd45ba7a971c79ded4f3003e5f4652d262195d0e8ea8f249
+Successfully built wikipedia-api psycopg2
+Installing collected packages: urllib3, typing-extensions, soupsieve, psycopg2, idna, charset-normalizer, certifi, requests, beautifulsoup4, wikipedia-api, googlesearch-python
+Successfully installed beautifulsoup4-4.13.3 certifi-2025.1.31 charset-normalizer-3.4.1 googlesearch-python-1.3.0 idna-3.10 psycopg2-2.9.10 requests-2.32.3 soupsieve-2.6 typing-extensions-4.12.2 urllib3-2.3.0 wikipedia-api-0.8.1
+[1m[7m%[27m[1m[0m                                                                                ]7;file://MacBook-Air-de-admin.local/Users/admin/Desktop/crm-frontend[0m[27m[24m[Jadmin@MacBook-Air-de-admin crm-frontend % [K[?2004h
