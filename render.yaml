@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: crm-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn server:app
+    envVars:
+      - key: GOOGLE_CLIENT_ID
+        value: 583250868510-r3e37u1i3udor8ctdo8p5s5o87qg3rol.apps.googleusercontent.com
