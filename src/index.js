@@ -4,60 +4,60 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 
-// ✅ Use environment variables or fallback to default API URL
+// 🌍 Use environment variable or fallback to localhost
 const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:5000/api";
 
 const Root = () => {
-    const [clientId, setClientId] = useState(null);
-    const [error, setError] = useState(null);
-    const [loading, setLoading] = useState(true);
+  const [clientId, setClientId] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchClientId = async () => {
-            console.log("🔍 Fetching Google Client ID from:", `${API_URL}/config`);
-            try {
-                const response = await fetch(`${API_URL}/config`);
-                if (!response.ok) {
-                    throw new Error(`❌ Failed to fetch Google Client ID: ${response.statusText}`);
-                }
-                const data = await response.json();
-                if (!data.googleClientId) {
-                    throw new Error("⚠️ No Google Client ID received.");
-                }
-                console.log("✅ Google Client ID Fetched:", data.googleClientId);
-                setClientId(data.googleClientId);
-            } catch (err) {
-                console.error("❌ Error fetching Google Client ID:", err);
-                setError(err.message);
-            } finally {
-                setLoading(false);
-            }
-        };
+  useEffect(() => {
+    const fetchClientId = async () => {
+      const configEndpoint = `${API_URL}/config`;
+      console.log("🔍 Fetching Google Client ID from:", configEndpoint);
 
-        fetchClientId();
-    }, []);
+      try {
+        const response = await fetch(configEndpoint);
+        if (!response.ok) {
+          throw new Error(`❌ Failed to fetch: ${response.statusText}`);
+        }
 
-    if (loading) {
-        return <p>🔄 Loading Google Authentication...</p>;
-    }
+        const data = await response.json();
+        if (!data.googleClientId) {
+          throw new Error("⚠️ Google Client ID missing in response.");
+        }
 
-    if (error) {
-        return <p style={{ color: "red", fontWeight: "bold" }}>⚠️ Error: {error}</p>;
-    }
+        console.log("✅ Fetched Client ID:", data.googleClientId);
+        setClientId(data.googleClientId);
+      } catch (err) {
+        console.error("❌ Error loading config:", err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
 
-    return (
-        <GoogleOAuthProvider clientId={clientId}>
-            <BrowserRouter>
-                <App />
-            </BrowserRouter>
-        </GoogleOAuthProvider>
-    );
+    fetchClientId();
+  }, []);
+
+  if (loading) return <p>🔄 Loading Google Auth...</p>;
+  if (error) return <p style={{ color: "red", fontWeight: "bold" }}>⚠️ {error}</p>;
+
+  return (
+    <GoogleOAuthProvider clientId={clientId}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </GoogleOAuthProvider>
+  );
 };
 
-// ✅ React 18 Compatible
+// 🔁 Mount root
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(<Root />);
+
 
 
 
